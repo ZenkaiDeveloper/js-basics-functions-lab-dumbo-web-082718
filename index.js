@@ -10,3 +10,8 @@ function distanceTravelledInFeet(block1,block2){
   const blockDistance = Math.abs(block2-block1);
   return blockDistance*264;
 }
+
+function calculateFarePrice(start,finish){
+  
+  
+}
