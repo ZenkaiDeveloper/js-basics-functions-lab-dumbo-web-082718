@@ -11,7 +11,7 @@ function distanceTravelledInFeet(block1,block2){
   return blockDistance*264;
 }
 
-function calculateFarePrice(start,finish){
+function calculatesFarePrice(start,finish){
   const distance = distanceTravelledInFeet(start, finish);
   let result = "";
   if(distance > 2500){
