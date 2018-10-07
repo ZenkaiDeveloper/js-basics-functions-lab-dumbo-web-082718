@@ -18,6 +18,8 @@ function calculateFarePrice(start,finish){
     result = "cannot travel that far";
   }else if(distance <= 400){
     result = 0;
-  }else if()
+  }else if(distance<=2000){
+    result = 
+  }
   
 }
