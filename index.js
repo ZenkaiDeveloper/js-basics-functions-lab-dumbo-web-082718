@@ -12,6 +12,10 @@ function distanceTravelledInFeet(block1,block2){
 }
 
 function calculateFarePrice(start,finish){
-  
+  distance = distanceTravelledInFeet(start, finish);
+  switch(distance){
+    case > 2500:
+      ""
+  }
   
 }
