@@ -12,10 +12,11 @@ function distanceTravelledInFeet(block1,block2){
 }
 
 function calculateFarePrice(start,finish){
-  distance = distanceTravelledInFeet(start, finish);
+  const distance = distanceTravelledInFeet(start, finish);
+  let result = "";
   switch(distance){
     case > 2500:
-      ""
+      result = "No go.";
   }
   
 }
