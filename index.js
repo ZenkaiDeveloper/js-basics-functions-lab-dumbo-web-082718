@@ -20,6 +20,8 @@ function calculateFarePrice(start,finish){
     result = 0;
   }else if(distance<=2000){
     result = 0.02*(distance-400);
-  }else
+  }else if(distance>2000){
+    
+  }
   
 }
